@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(240, 206, 221);
+    display: flex;
+}
+
+.card {
+    border: 10px solid rgb(167, 164, 165);
+    padding: 5px 60px;
+    background-color: white;
+    background-image: url("assets/12.png");
+    background-size: cover;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+#btn-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e40c34;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 160px;
+    padding: 15px;
+}
+
+#btn-main:hover {
+    background-color: #aa838b;
+}
+
+#btn-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e40c34;
+    border-radius: 5px;
+    font-size: 11px;
+    height: 40px;
+    width: 140px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#btn-nav:hover {
+    background-color: #aa838b;
+}
+
+.link {
+    display: flex;
+    text-align: center;
+}
+
+.header {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+    justify-self: center;
+    align-self: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 50%;
+}
+
+h5:hover {
+    color: #E40C34;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.text {
+    padding: 40px 0px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.divImages {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.image {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0px 0px;
+    border: 1px solid #e40c34;
+}
+
+.image:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+    zoom: 1;
+}
+
+.divImages .back {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0px 10px 10px;
+    background: white;
+    opacity: 0.75;
+}
